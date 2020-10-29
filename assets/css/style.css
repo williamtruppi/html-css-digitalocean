@@ -1,5 +1,5 @@
 body{
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* navbar */
@@ -57,9 +57,7 @@ nav img{
   margin-top: 80px;
   margin-bottom: 0;
   background-color: rgb(0, 105, 255);
-  background-image: url("../img/bg-home-cta.svg");
   background-repeat: no-repeat;
-  background-size: 20%;
 }
 
 .main_title{
@@ -117,4 +115,28 @@ nav img{
 
 #logo img{
   height: 70px;
+}
+
+/* section DEPLOY */
+
+#deploy{
+  margin: 40px 0;
+}
+
+#deploy ul{
+  margin-left: 40px
+}
+
+#deploy ul li{
+  list-style: none;
+  border-left: 1px solid grey;
+  padding: 0 0 20px 10px;
+}
+
+#deploy p{
+  color: grey;
+}
+
+#deploy .row:nth-child(2){
+  margin-top: 40px;
 }
