@@ -1,6 +1,12 @@
-/* navbar */
 body{
-  font-family: Helvetica;
+  font-weight: bold;
+}
+
+/* navbar */
+
+nav{
+  box-shadow: 0px 5px 11px -2px rgba(0,0,0,0.75);
+  background-color: white;
 }
 
 nav img{
@@ -9,12 +15,78 @@ nav img{
 }
 
 #navbar_top ul li{
-  margin: 27px 0 25px 10px;
+  margin: 30px 0 25px 10px;
   font-size: 15px;
   padding: 0;
+}
+
+#navbar_top ul:last-of-type{
+  margin: 0;
 }
 
 #navbar_top a{
   text-decoration: none;
   color: black;
+}
+
+#navbar_top a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+#navbar_top .btn_top{
+  margin: 0;
+}
+
+/* header */
+
+.jumbotron{
+  margin: 80px 0;
+  background-color: rgb(0, 105, 255);
+  background-image: url("../img/bg-home-cta.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.main_title{
+  color: white;
+  padding-right: 50px;
+}
+
+.box_form{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 38px 20px;
+}
+
+.box_form button{
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn-blue{
+  background-color: #1633FF !important;
+  color: white !important;
+}
+
+.box_form h2{
+  font-size: 2.5em;
+}
+
+.box_form h2:nth-child(2){
+  color: blue;
+}
+
+.box_form p{
+  font-size: 1em
+}
+
+.box_form img{
+  height: 20px;
+  display: inline;
+  float: left;
 }
