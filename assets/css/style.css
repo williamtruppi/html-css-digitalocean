@@ -1,5 +1,5 @@
 body{
-  /* font-weight: bold; */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* navbar */
@@ -11,12 +11,19 @@ nav{
 
 nav img{
   height: 30px;
-  margin: 20px 0
+  margin: 30px 0
 }
 
-#navbar_top .btn_menu{
-  background: white !important;
-  color: blue !important;
+.navbar-toggle span{
+  background-color: white !important;
+  /* color: blue !important; */
+}
+
+.navbar-toggle{
+  background-color: blue !important;
+  /* color: blue !important; */
+  margin: 30px 0;
+  padding: 10px 10px;
 }
 
 #navbar_top ul li{
@@ -43,10 +50,18 @@ nav img{
   margin: 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
 
   #navbar_center, #navbar_right{
     display: none;
+  }
+
+  .navbar-toggle{
+    display: block
+  }
+
+  .navbar-fixed-top{
+    top: 0;
   }
 }
 
@@ -135,8 +150,43 @@ nav img{
 
 #deploy p{
   color: grey;
+  margin-bottom: 0;
 }
 
 #deploy .row:nth-child(2){
   margin-top: 40px;
+}
+
+.deploy_box{
+  padding-right: 20px;
+}
+
+/* section DESIGNED */
+
+#designed{
+  background-color: #F3F5F9;
+  padding: 50px 0;
+  line-height: 40px;
+}
+
+#designed img{
+  height: 500px;
+}
+
+#designed .image::before{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f053";
+  font-weight: 900;
+  font-size: 50px;
+  color: grey;
+  margin: 0 10px;
+}
+
+#designed .image::after{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f054";
+  font-weight: 900;
+  font-size: 50px;
+  color: grey;
+  margin: 0 10px;
 }

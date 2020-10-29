@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
         <div class="row">
           <div class="col-lg-2 col-md-12 col-xs-12" id="navbar_left">
             <a href=""><img src="assets/img/logo.png" alt=""></a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" id="btn_menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -27,7 +28,6 @@
             </button>
           </div>
 
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="col-lg-5" id="navbar_center">
               <ul class="list-inline text-right">
                 <li><a href="">Products<i class="glyphicon glyphicon-menu-down"></i></a></li>
@@ -36,15 +36,15 @@
                 <li><a href="">Pricing</a></li>
               </ul>
             </div>
-            <div class="col-lg-5">
-              <ul class="list-inline text-right" id="navbar_">
+
+            <div class="col-lg-5" id="navbar_right">
+              <ul class="list-inline text-right">
                 <li><a href="">Docs</a></li>
                 <li><a href="">Support<i class="glyphicon glyphicon-menu-down"></i></a></li>
                 <li><a href="">Login</a></li>
                 <li><a href=""><button type="button" name="button" class="btn_top">Sign Up</button></button></a></li>
               </ul>
             </div>
-          </div>
         </div>
         <!-- apertura row -->
       </div>
@@ -55,7 +55,7 @@
 
   <!-- apertura header -->
   <header class="jumbotron">
-  <!-- apertura container -->
+    <!-- apertura container -->
     <div class="container">
       <!-- apertura row -->
       <div class="row">
@@ -135,7 +135,7 @@
       <div class="container">
         <!-- apertura row -->
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 col-md-12 col-xs-12">
             <h2 class="text-center">Deploy and scale seamlessly</h2>
             <p class="text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
@@ -144,7 +144,7 @@
 
         <!-- apertura row -->
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-3 col-xs-12">
             <ul>
               <li><a href="#">Deploy</a></li>
               <li><a href="#">Manage</a></li>
@@ -153,31 +153,33 @@
               <li><a href="#">Monitor</a></li>
             </ul>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-9 col-md-9 col-xs-12" id="deploy_left">
             <!-- apertura row -->
             <div class="row text-left">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="deploy_box">
                   <img src="assets/img/dropletinboxicon.svg" alt="">
                   <h4>Cluster deployments</h4>
                   <p>Provison mutiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against API.</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="deploy_box">
                   <img src="assets/img/dropletinboxicon.svg" alt="">
                   <h4>Optimized compute types</h4>
                   <p>Get the compute resources you need with Standard or Optimed Droplets</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="deploy_box">
                   <img src="assets/img/dropletinboxicon.svg" alt="">
                   <h4>One-click apps</h4>
                   <p>Skip the install and configuration process with the pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="deploy_box">
                   <img src="assets/img/dropletinboxicon.svg" alt="">
                   <h4>Global availability</h4>
@@ -193,6 +195,26 @@
       <!-- chiusura container -->
     </section>
     <!-- chiusura section DEPLOY -->
+
+    <!-- apertura section DESIGNED -->
+    <section id="designed">
+      <!-- apertura container -->
+      <div class="container">
+        <!-- apertura row -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+            <h2>Designed for developers</h2>
+            <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API</p>
+            <div class="image">
+              <img src="assets/img/createdopretls.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- chiusura row -->
+      </div>
+      <!-- chiusura container -->
+    </section>
+    <!-- apertura section DESIGNED -->
 
   </main>
   <!-- chiusura main -->
