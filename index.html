@@ -17,24 +17,33 @@
       <div class="container">
         <!-- apertura row -->
         <div class="row">
-          <div class="col-lg-2 col-md-6 col-xs-6" id="navbar_left">
+          <div class="col-lg-2 col-md-12 col-xs-12" id="navbar_left">
             <a href=""><img src="assets/img/logo.png" alt=""></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
-          <div class="col-lg-5" id="navbar_center">
-            <ul class="list-inline text-right">
-              <li><a href="">Products<i class="glyphicon glyphicon-menu-down"></i></a></li>
-              <li><a href="">Customers</a></li>
-              <li><a href="">Community<i class="glyphicon glyphicon-menu-down"></i></a></li>
-              <li><a href="">Pricing</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-5">
-            <ul class="list-inline text-right">
-              <li><a href="">Docs</a></li>
-              <li><a href="">Support<i class="glyphicon glyphicon-menu-down"></i></a></li>
-              <li><a href="">Login</a></li>
-              <li><a href=""><button type="button" name="button" class="btn_top">Sign Up</button></button></a></li>
-            </ul>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="col-lg-5" id="navbar_center">
+              <ul class="list-inline text-right">
+                <li><a href="">Products<i class="glyphicon glyphicon-menu-down"></i></a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Community<i class="glyphicon glyphicon-menu-down"></i></a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <ul class="list-inline text-right" id="navbar_">
+                <li><a href="">Docs</a></li>
+                <li><a href="">Support<i class="glyphicon glyphicon-menu-down"></i></a></li>
+                <li><a href="">Login</a></li>
+                <li><a href=""><button type="button" name="button" class="btn_top">Sign Up</button></button></a></li>
+              </ul>
+            </div>
           </div>
         </div>
         <!-- apertura row -->
@@ -43,45 +52,84 @@
   </nav>
   <!-- chiusura navbar -->
 
+
   <!-- apertura header -->
   <header class="jumbotron">
   <!-- apertura container -->
-  <div class="container">
-    <!-- apertura row -->
-    <div class="row">
-      <div class="col-lg-6 col-xs-12 col-md-6">
-        <div class="main_title">
-          <h1>The simplest cloud platform for developers & teams</h1>
-          <p>A complete set of infrastructure and fully managed platform services for all your development needs – with an intuitive control panel, powerful performance, and predictable pricing.</p>
+    <div class="container">
+      <!-- apertura row -->
+      <div class="row">
+        <div class="col-lg-6 col-xs-12 col-md-6">
+          <div class="main_title">
+            <h1>The simplest cloud platform for developers & teams</h1>
+            <p>A complete set of infrastructure and fully managed platform services for all your development needs – with an intuitive control panel, powerful performance, and predictable pricing.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-xs-12 col-md-6">
+          <!-- box form -->
+          <div class="box_form">
+            <h2>Deploy your app in seconds.</h2>
+            <h2>Get started now.</h2>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-default btn-blue">Create your account</button>
+              <br>
+              <button type="submit" class="btn btn-default">
+                <img src="assets/img/googlelogo.svg" class="img-responsive" alt="">
+                Submit
+              </button>
+            </form>
+            <p>By signing up you agree to the <a href="#">Terms of Service</a> </p>
+          </div>
         </div>
       </div>
-      <div class="col-lg-6 col-xs-12 col-md-6">
-        <!-- box form -->
-        <div class="box_form">
-          <h2>Deploy your app in seconds.</h2>
-          <h2>Get started now.</h2>
-          <form>
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-default btn-blue">Create your account</button>
-            <br>
-            <button type="submit" class="btn btn-default">
-              <img src="assets/img/googlelogo.svg" class="img-responsive" alt="">
-              Submit
-            </button>
-          </form>
-          <p>By signing up you agree to the <a href="#">Terms of Service</a> </p>
-        </div>
-      </div>
+      <!-- chiusura row -->
     </div>
-    <!-- chiusura row -->
-  </div>
-  <!-- chiusura container -->
+    <!-- chiusura container -->
   </header>
   <!-- chiusura header -->
+
+  <!-- apertura main -->
+  <main>
+    <!-- apertura section LOGO -->
+    <section id="logo">
+      <!-- apertura container -->
+      <div class="container">
+        <!-- apertura row -->
+        <div class="row">
+          <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/docker.svg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/gitlab.svg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/slack.svg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/hashicorp.svg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/wework.svg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-6">
+            <img src="assets/img/splunklogo.svg" alt="">
+          </div>
+          <a href="#">View customer stories</a>
+        </div>
+        <!-- chiusura row -->
+      </div>
+      <!-- chiusura container -->
+    </section>
+    <!-- chiusura section LOGO -->
+  </main>
+  <!-- chiusura main -->
+
 </body>
 </html>
