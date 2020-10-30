@@ -185,7 +185,7 @@ nav img{
   content: "\f054";
   font-weight: 900;
   font-size: 5rem;
-  color: black;
+  color: darkblue;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -231,4 +231,35 @@ nav img{
 
 #regions .col-lg-6 .row{
   padding: 0.8rem 0;
+}
+
+/* section ROCKERBOX */
+
+#rockerbox{
+  padding: 50px 0;
+  font-size: 2rem;
+}
+
+#rockerbox img{
+  margin-bottom: 2rem;
+  width: 40%;
+}
+
+.rocker_box{
+  width: 65%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.55);
+  margin: 30px auto;
+  padding: 60px 0;
+}
+
+.fa-circle{
+  color: blue;
+  font-size: 2rem;
+}
+
+.fa-circle:hover{
+  background-color: blue;
+  border-radius: 100%;
 }
