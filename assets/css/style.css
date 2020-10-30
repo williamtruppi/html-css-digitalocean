@@ -271,3 +271,30 @@ nav img{
   background-color: blue;
   color: white;
 }
+
+/* footer */
+
+footer{
+  padding: 50px 0;
+  background-color: #010E28;
+  color: #0080FF;
+  font-size: 1.8rem;
+}
+
+footer ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+footer ul{
+  margin: 0;
+  padding: 0;
+}
+
+footer h4{
+  color: white;
+}
+
+footer i{
+  font-size: 2rem;
+}
