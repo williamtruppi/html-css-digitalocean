@@ -60,9 +60,6 @@ nav img{
     display: block
   }
 
-  .navbar-fixed-top{
-    top: 0;
-  }
 }
 
 
@@ -170,29 +167,68 @@ nav img{
 }
 
 #designed img{
-  height: 500px;
+  width: 70%;
 }
 
 #designed .image::before{
   font-family: 'Font Awesome 5 Free';
   content: "\f053";
   font-weight: 900;
-  font-size: 50px;
+  font-size: 5rem;
   color: grey;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 #designed .image::after{
   font-family: 'Font Awesome 5 Free';
   content: "\f054";
   font-weight: 900;
-  font-size: 50px;
-  color: grey;
+  font-size: 5rem;
+  color: black;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 /* section BUSINESS */
 
 #business{
   padding: 50px 0;
+}
+
+/* section REGIONS */
+
+#regions{
+  padding: 50px 0;
+  background-color: #1633FF;
+  color: white;
+}
+
+#regions a{
+  color: white;
+}
+
+#regions a::after{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f054";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 0 0 10px;
+}
+
+.box_regions{
+  height: 100%;
+  padding-right: 3rem;
+  margin-top: 2rem;
+  margin-left: 15px;
+}
+
+#regions .col-lg-6 .row:not(:last-child){
+  height: 100%;
+  border-bottom: 1px solid white;
+}
+
+#regions .col-lg-6 .row{
+  padding: 0.8rem 0;
 }
