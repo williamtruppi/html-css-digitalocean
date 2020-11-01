@@ -50,6 +50,8 @@ nav img{
   margin: 0;
 }
 
+/* media query */
+
 @media all and (min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
 
   #navbar_center, #navbar_right{
@@ -58,6 +60,13 @@ nav img{
 
   .navbar-toggle{
     display: block
+  }
+
+  .chatbot_button img{
+    height: 15%;
+    position: fixed;
+    bottom: 5em;
+    left: 5em;
   }
 
 }
@@ -297,4 +306,13 @@ footer h4{
 
 footer i{
   font-size: 2rem;
+}
+
+/* chatbot button */
+
+.chatbot_button img{
+  height: 15%;
+  position: fixed;
+  bottom: 5em;
+  right: 5em;
 }
