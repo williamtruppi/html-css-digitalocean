@@ -273,6 +273,19 @@ nav img{
   border-radius: 100%;
 }
 
+#rockerbox .fa-chevron-left{
+  font-size: 2.5em;
+  float: right;
+  margin: 220px 0;
+}
+
+#rockerbox .fa-chevron-right{
+  font-size: 2.5em;
+  float: left;
+  margin: 220px 0;
+}
+
+
 /* section CREATE_ACCOUNT */
 
 #create_account{
@@ -311,7 +324,7 @@ footer i{
 /* chatbot button */
 
 .chatbot_button img{
-  height: 15%;
+  height: 10%;
   position: fixed;
   bottom: 5em;
   right: 5em;
