@@ -2,6 +2,12 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* classi Utility */
+
+.pd_top_down50{
+  padding: 50px 0;
+}
+
 /* navbar */
 
 nav{
@@ -16,12 +22,10 @@ nav img{
 
 .navbar-toggle span{
   background-color: white !important;
-  /* color: blue !important; */
 }
 
 .navbar-toggle{
   background-color: blue !important;
-  /* color: blue !important; */
   margin: 30px 0;
   padding: 10px 10px;
 }
@@ -70,7 +74,6 @@ nav img{
   }
 
 }
-
 
 /* header */
 
@@ -140,10 +143,6 @@ nav img{
 
 /* section DEPLOY */
 
-#deploy{
-  margin: 40px 0;
-}
-
 #deploy ul{
   margin-left: 40px
 }
@@ -171,7 +170,6 @@ nav img{
 
 #designed{
   background-color: #F3F5F9;
-  padding: 50px 0;
   line-height: 40px;
 }
 
@@ -201,14 +199,9 @@ nav img{
 
 /* section BUSINESS */
 
-#business{
-  padding: 50px 0;
-}
-
 /* section REGIONS */
 
 #regions{
-  padding: 50px 0;
   background-color: #1633FF;
   color: white;
 }
@@ -245,7 +238,6 @@ nav img{
 /* section ROCKERBOX */
 
 #rockerbox{
-  padding: 50px 0;
   font-size: 2rem;
 }
 
@@ -289,7 +281,6 @@ nav img{
 /* section CREATE_ACCOUNT */
 
 #create_account{
-  padding: 50px 0;
   background-color: blue;
   color: white;
 }
@@ -297,7 +288,6 @@ nav img{
 /* footer */
 
 footer{
-  padding: 50px 0;
   background-color: #010E28;
   color: #0080FF;
   font-size: 1.8rem;
